@@ -7,5 +7,5 @@ Tabs, honestly.
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week1/potatoes.html
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week1/scottish.html
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week1/godgivemestrength.html
-Week2:
+* Week2:
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week2/composition.html
