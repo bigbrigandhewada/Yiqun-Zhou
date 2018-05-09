@@ -1,0 +1,121 @@
+<html>
+  <head>
+  <title>animation</title>
+      <style>
+      body{margin:0px;
+      background:#ffd320;
+      height:2000px;
+
+    }
+    div{
+      width:20% ;
+      float:left;
+      left:0px;
+      top:0px;
+      border:0px;
+    }
+      section{
+
+
+
+}
+
+
+  .col1{
+    background:red;
+
+
+    animation-timing-function: ease;
+    animation-name:col1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.col2{
+  background:red;
+  animation-timing-function: ease;
+  animation-name:col2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay:-20s;
+
+}
+.col3{
+  background:red;
+      animation-timing-function: ease;
+      animation-name:col1;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+
+}
+.col4{
+  background:red;
+  animation-timing-function: ease;
+  animation-name:col2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+.col5{
+  background:red;
+  animation-timing-function: ease;
+  animation-name:col1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+  @keyframes col1{
+    0% {
+       background:red;
+       height:0px;
+      }
+      25%{
+        background:red;
+        height:2000px;
+      }
+        50%{
+            background:red;
+              height:0px;
+            }
+            100%{
+                background:red;
+                  height:0px;
+                }
+  }
+  @keyframes col2{
+    0% {
+       background:red;
+       height:2000px;
+      }
+      50%{
+        background:red;
+        height:2000px;
+      }
+        75%{
+            background:red;
+              height:0px;
+            }
+            100%{
+                background:red;
+                  height:2000px;
+                }
+  }
+</style>
+</head>
+
+      <body>
+      <section>
+      <div class="col1">
+      </div>
+      <div class="col2">
+      </div>
+      <div class="col3">
+      </div>
+      <div class="col4">
+      </div>
+      <div class="col5">
+      </div>
+      </section>
+
+      </body>
+
+    </html>
