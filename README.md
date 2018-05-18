@@ -9,3 +9,8 @@ Tabs, honestly.
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week1/godgivemestrength.html
 * Week2:
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week2/composition.html
+* Week3:
+* https://bigbrigandhewada.github.io/Yiqun-Zhou/week3/animation.html
+* https://bigbrigandhewada.github.io/Yiqun-Zhou/week3/transformation.html
+* Week3:
+* https://bigbrigandhewada.github.io/Yiqun-Zhou/week4/circles.html
