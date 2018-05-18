@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>circles</title>
+  <style>
+
+  body{
+    background:#d6d6d6;
+  }
+  div.circleback{
+    width:20px;
+    height:20px;
+    margin:2px;
+    border-radius:50%;
+    background:#fff0f2;
+    float:left;
+    overflow:auto;
+
+  }
+  .containter{
+clear:both;
+  }
+
+  .circle1{
+    position:fixed;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-top:10vh;
+    margin-left:10vw;
+    background:#2196f3;
+    animation: move1 10s;
+    animation-iteration-count: infinite;
+
+  }
+  .circle2{
+    position:fixed;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-top:10vh;
+    margin-left:80vw;
+    background:#ec4e84;
+        animation: move2 10s;
+        animation-iteration-count: infinite;
+
+  }
+  .circle3{
+    position:fixed;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-top:80vh;
+    margin-left:10vw;
+    background:#ffeb3b;
+    animation: move3 10s;
+    animation-iteration-count: infinite;
+
+  }
+  .circle4{
+    position:fixed;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-top:80vh;
+    margin-left:80vw;
+    background:#444444;
+    animation: move4 10s;
+    animation-iteration-count: infinite;
+
+  }
+  .rectangle1{
+    background:#d4f0eb;
+    position:fixed;
+    width:600px;
+    height:20px;
+    top:50%;
+    left:50%;
+    margin-top:-10px;
+    margin-left:-300px;
+    animation-timing-function:linear;
+    animation: rect1 10s;
+    animation-iteration-count: infinite;
+  }
+  .rectangle2{
+    background:#d4f0eb;
+    position:fixed;
+    width:20px;
+    height:600px;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-10px;
+        animation-timing-function:linear;
+    animation: rect1 10s;
+    animation-iteration-count: infinite;
+  }
+  .cir1{
+    background:#cddc39;
+    position:fixed;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:30vh;
+    margin-left:30vw;
+
+animation: cir1 5s;
+animation-iteration-count: infinite;
+  }
+  .cir2{
+    background:#cddc39;
+    position:fixed;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:30vh;
+    margin-left:60vw;
+    animation: cir2 5s;
+    animation-iteration-count: infinite;
+  }
+  .cir3{
+    background:#cddc39;
+    position:fixed;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:60vh;
+    margin-left:60vw;
+    animation: cir3 5s;
+    animation-iteration-count: infinite;
+  }
+  .cir4{
+    background:#cddc39;
+    position:fixed;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:60vh;
+    margin-left:30vw;
+    animation: cir4 5s;
+    animation-iteration-count: infinite;
+  }
+  .move{
+
+          animation-timing-function: ease;
+         animation: fly 1s ;
+         animation-fill-mode:both;
+             background:blue;
+  }
+  @keyframes fly{
+    0%   {  margin-top: 0; margin-left:0; }
+    100% {  margin-top: 200px; margin-left:100px; }
+  }
+  @keyframes move1{
+    0%{    margin-top:10vh;
+        margin-left:10vw;
+        background:#2196f3;
+    }
+    25%   {    margin-top:10vh;
+        margin-left:80vw;
+        background:#ec4e84;
+      }
+    50% {    margin-top:80vh;
+        margin-left:80vw;
+      background:#ffeb3b;}
+    75% {    margin-top:80vh;
+        margin-left:10vw;
+      background:#444444;}
+    100% {    margin-top:10vh;
+        margin-left:10vw;
+      background:#2196f3;}
+  }
+  @keyframes move2{
+    0%{    margin-top:10vh;
+        margin-left:80vw;
+        background:#ec4e84;
+    }
+    25%   {    margin-top:80vh;
+        margin-left:80vw;
+      background:#ffeb3b;}
+    50% {    margin-top:80vh;
+        margin-left:10vw;
+      background:#444444;}
+    75% {    margin-top:10vh;
+        margin-left:10vw;
+      background:#2196f3;}
+    100% {    margin-top:10vh;
+        margin-left:80vw;
+      background:#ec4e84;}
+  }
+  @keyframes move3{
+    0%{    margin-top:80vh;
+        margin-left:80vw;
+        background:#ffeb3b;
+    }
+    25%   {    margin-top:80vh;
+        margin-left:10vw;
+      background:#444444;}
+    50% {    margin-top:10vh;
+        margin-left:10vw;
+      background:#2196f3;}
+    75% {    margin-top:10vh;
+        margin-left:80vw;
+      background:#ec4e84;}
+    100% {    margin-top:80vh;
+        margin-left:80vw;
+      background:#ffeb3b;}
+  }
+  @keyframes move4{
+    0%{    margin-top:80vh;
+        margin-left:10vw;
+        background:#444444;
+    }
+    25%   {    margin-top:10vh;
+        margin-left:10vw;
+      background:#2196f3;}
+    50% {    margin-top:10vh;
+        margin-left:80vw;
+      background:#ec4e84;}
+    75% {    margin-top:80vh;
+        margin-left:80vw;
+      background:#ffeb3b;}
+    100% {    margin-top:80vh;
+        margin-left:10vw;
+      background:#444444;}
+  }
+  @keyframes rect1{
+    0%{   transform:rotate(0deg);
+      transform-origin:50% 50%;
+
+    }
+
+    100% {    transform:rotate(360deg);
+      transform-origin:50% 50%;}
+  }
+
+  @keyframes cir1{
+    0%{
+      margin-left:30vw;
+      margin-top:30vh;
+      background:#cddc39;
+    }
+    50%{
+      margin-left:60vw;
+      margin-top:60vh;
+      background:#ecf1bd;
+    }
+
+    100% {          margin-left:30vw;
+          margin-top:30vh;
+        background:#cddc39;}
+  }
+  @keyframes cir2{
+    0%{
+      margin-left:60vw;
+      margin-top:30vh;
+      background:#cddc39;
+    }
+    50%{
+      margin-left:30vw;
+      margin-top:60vh;
+      background:#ecf1bd;
+    }
+    100% {          margin-left:60vw;
+          margin-top:30vh;
+        background:#cddc39;}
+  }
+  @keyframes cir3{
+    0%{
+      margin-left:60vw;
+      margin-top:60vh;
+      background:#cddc39;
+    }
+    50%{
+      margin-left:30vw;
+      margin-top:30vh;
+      background:#ecf1bd;
+    }
+
+    100% {          margin-left:60vw;
+          margin-top:60vh;
+        background:#cddc39;}
+  }
+  @keyframes cir4{
+    0%{
+      margin-left:30vw;
+      margin-top:60vh;
+      background:#cddc39;
+    }
+    50%{
+      margin-left:60vw;
+      margin-top:30vh;
+      background:#ecf1bd;
+    }
+
+    100% {          margin-left:30vw;
+          margin-top:60vh;
+        background:#cddc39;}
+  }
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+<container>
+  <script>
+var i;
+for (i = 0; i < 2000; i++) {
+  document.write("<div class='circleback'></div>");
+}
+</script>
+</container>
+
+<div class="circle1">BYE
+</div>
+<div class="circle2">BYE
+</div>
+<div class="circle3">BYE
+</div>
+<div class="circle4">BYE
+</div>
+<div class="rectangle1">HELLO
+</div>
+<div class="rectangle2">HELLO
+</div>
+<div class="cir1">
+</div>
+<div class="cir2">
+</div>
+<div class="cir3">
+</div>
+<div class="cir4">
+</div>
+
+</body>
+
+<script>
+  $("div.circleback").mouseover(function() {
+    $(this).addClass("move");
+});
+</script>
+
+</html>
