@@ -12,5 +12,5 @@ Tabs, honestly.
 * Week3:
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week3/animation.html
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week3/transformation.html
-* Week3:
+* Week4:
 * https://bigbrigandhewada.github.io/Yiqun-Zhou/week4/circles.html
